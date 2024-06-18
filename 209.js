@@ -3,10 +3,11 @@
  * https://leetcode.com/problems/minimum-size-subarray-sum/
  * 
  * Final thoughts:
- * - скользящее окно бывает переменной длины
- * - ищем минимум - первое сравнение с наибольшим числом, ищем максимум положительных - с 0
- * - вместо Infinity можно использовать Number.MAX_(MIN_)SAFE_INTEGER или Number.POSITIVE_(NEGATIVE_)INFINITY
- * - через указатели можно считать длину массива
+ * - sliding window can have variable length
+ * - looking for the minimum - the first comparison with the largest number,
+ *   looking for the maximum of positive ones - with 0
+ * - instead of Infinity you can use Number.MAX_(MIN_)SAFE_INTEGER or Number.POSITIVE_(NEGATIVE_)INFINITY
+ * - you can use pointers to read the length of an array
  */
 
 /**

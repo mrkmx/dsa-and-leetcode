@@ -3,9 +3,9 @@
  * https://leetcode.com/problems/longest-substring-without-repeating-characters/
  * 
  * Final thoughts:
- * - проблема чистого листа - определил технику решения, начни писать бойлерплейт
- * - визуализируй первую итерацию, чтобы иметь перед глазами условие изменение поведения кода
- * - для поиска повторяющихся символов в строке используй сет
+ * - blank slate problem - determined the solution technique, start writing a boilerplate
+ * - visualize the first iteration to have before your eyes the condition for changing the behavior of the code
+ * - to search for repeated characters in a string, use a Set
  */
 
 /**

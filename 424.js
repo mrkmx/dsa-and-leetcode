@@ -3,10 +3,10 @@
  * https://leetcode.com/problems/longest-repeating-character-replacement/
  * 
  * Final thoughts:
- * - чтобы найти количество использованных букв подряд используй счетчик в Map {"a": 0, "b": 0}
- * - определи надо ли в алгоритме сканировать весь мэп на каждой итерации
- *   или достаточно запоминания полезного результата
- * - нарисовать объяснение алгоритма
+ * - to find the number of letters used in a row, use the counter in Map {"a": 0, "b": 0}
+ * - determine whether the algorithm needs to scan the entire map at each iteration
+ *   or whether memorizing the useful result is enough
+ * - draw an explanation of the algorithm
  * 
  * Good explanation: https://www.youtube.com/watch?v=gqXU1UyA8pk
  */

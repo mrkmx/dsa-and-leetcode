@@ -4,10 +4,11 @@
  * 
  * Final thoughts:
  * - max avg from max sum (obviously)
- * - sliding window - во втором цикле в каждой итерации ты уже получаешь результат операции для всего окна
- * - внимательность к переменным
- * - фиксированное скользящего окна - i < k
- * - смысл скользящего окна - на итерации от текущего значения окна вычитаем значение левого индекса, прибавляем значение правого
+ * - sliding window - in the second loop in each iteration you already get the result of the operation for the entire window
+ * - attention to variables
+ * - fixed sliding window - i < k
+ * - the meaning of a sliding window - at iteration from the current value of the window
+ *   we subtract the value of the left index, add the value of the right
  */
 
 /**

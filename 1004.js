@@ -3,11 +3,12 @@
  * https://leetcode.com/problems/max-consecutive-ones-iii/
  * 
  * Final thoughts:
- * - похожие задачи, с одной техникой решения могут иметь разные алгоритмы (1004 и 424)
- *   этот алгоритм проще, т.к. всего 2 варианта значений
- *   и мы знаем, что только 'zeroes' в сравнении с 'k' двигают окно
- * - можно считать нули, можно считать количество доступных 'k'
- * - главное - найти правильное условие смещения окна
+ * - similar problems with the same solution technique
+ *   may have different algorithms (1004 and 424).
+ *   This algorithm is simpler because there are only 2 possible values
+ *   ​​and we know that only 'zeroes' compared to 'k' move the window
+ * - zeros can be counted or the number of available 'k' can be counted
+ * - the main thing is to find the correct condition for window displacement
  */
 
 /**
